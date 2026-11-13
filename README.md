@@ -1,4 +1,36 @@
-# Heartfelt Care Foundation Website
+<p align="center">
+  <img src="docs/banner.svg" alt="Heartfelt Care Foundation. Giving, events and community in Tanzania." width="100%">
+</p>
+
+<p align="center">
+  <img alt="Stack" src="https://img.shields.io/badge/stack-HTML%20%C2%B7%20CSS%20%C2%B7%20vanilla%20JS-201a14?style=flat-square">
+  <img alt="Forms" src="https://img.shields.io/badge/forms-Netlify-00C7B7?style=flat-square">
+  <img alt="PWA" src="https://img.shields.io/badge/installable-web%20manifest-4c7a52?style=flat-square">
+  <a href="https://www.heartfeltcarefoundation.org"><img alt="Live site" src="https://img.shields.io/badge/live-heartfeltcarefoundation.org-4c7a52?style=flat-square"></a>
+</p>
+
+<p align="center">
+  <a href="#whats-in-this-folder">Pages and assets</a> ·
+  <a href="#how-a-visitor-moves-through-the-site">Visitor journey</a> ·
+  <a href="#deploying">Deploying</a> ·
+  <a href="#before-this-goes-live-please-check">Pre-launch checks</a>
+</p>
+
+---
+
+## How a visitor moves through the site
+
+```mermaid
+flowchart LR
+    H[Home<br/>impact and purpose] --> A[About]
+    H --> W[Our work]
+    H --> E[Events<br/>live countdowns]
+    H --> D[Donate]
+    H --> J[Join and contact]
+    D --> T[Thank you]
+    J --> M[Message sent]
+```
+
 
 A static, multi-page website for Heartfelt Care Foundation (Tanzania). Plain HTML, CSS and JavaScript, no build step and no framework required. Every file sits flat in one folder so it can be dropped straight into any static host.
 
